@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body, html {
+    /* background: linear-gradient(90deg, rgb(12, 97, 33), rgb(104, 145, 162)); */
+    background: #F1F3F4;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-weight: 400;
+}
+
+body, .mat-form-field, .mat-dialog-title, .mat-raised-button, .mat-fab, 
+.mat-mini-fab, .mat-select, .mat-option, .mat-expansion-panel, .mat-expansion-panel-header, 
+.mat-date-picker, .mat-calendar, .mat-calendar-header, .mat-calendar-period-button, 
+.mat-button, .mat-expansion-panel-content, .mat-checkbox, .mat-dialog-content,
+.table, .mat-table, .mat-list, .mat-list-item, .mat-line, .mat-flat-button, .mat-stroked-button,
+.mat-cell, .mat-row, .mat-paginator, .mat-header-row, .mat-header-cell, .mat-input-element, .mat-tooltip,
+.mat-card, .mat-card-header, .mat-card-title, .mat-card-subtitle, .mat-card-content {
+    font-family: 'Lato', Helvetica, 'Trebuchet MS', Arial, sans-serif !important;
+    text-rendering: optimizeLegibility;
+}
